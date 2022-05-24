@@ -18,3 +18,10 @@ composter.setValue(<item:thermal:sawdust>, 0.45);
 <recipetype:immersiveengineering:coke_oven>.addRecipe("coke_from_charcoal", <tag:items:forge:charcoal>, 1800, <item:immersiveengineering:coal_coke>, 250);
 <recipetype:immersiveengineering:coke_oven>.addRecipe("coke_from_charcoal", <tag:items:forge:coals>, 1800, <item:immersiveengineering:coal_coke>, 500);
 */
+
+#adding back new recipes
+craftingTable.addShaped("tesseract_new", <item:tesseract:tesseract>, [
+    [<tag:items:forge:ingots/enderium>, <tag:items:forge:ender_pearls>, <tag:items:forge:ingots/enderium>],
+	[<tag:items:forge:ender_pearls>, <item:thermal:machine_frame>, <tag:items:forge:ender_pearls>],
+    [<tag:items:forge:ingots/enderium>, <tag:items:forge:ender_pearls>, <tag:items:forge:ingots/enderium>]]);
+	
